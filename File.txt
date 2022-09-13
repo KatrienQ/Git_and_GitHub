@@ -1,4 +1,4 @@
-- GitHub keeps track of timeline of your commits
+- GitHub keeps track of timeline of your commits
 
 - Structure
     - My computer
@@ -11,8 +11,22 @@
     - How this addresses the issue
     - Effects dut the change
     - Limitations of the change
+    
     → Be descriptive!
     
 - Saving a point in time
     - Add to staging area
+    
+    ```bash
+    $git add File
+    ```
+    
     - Commit
+    
+    ```bash
+    $git commit -m "meassage"
+    ```
+    
+    → You can also do this in ungit, but less recommended for complex projects
+
+This is a tests
