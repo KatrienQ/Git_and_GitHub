@@ -74,4 +74,8 @@
     ```
     -> Creates bridge between local repository that git created for you and GitHub remote repo
 
-Hello Katrien! :-)
+- Alternative histories: branches
+    - Branch
+        - Alternative history of commits
+        - has a specific name
+        - …
