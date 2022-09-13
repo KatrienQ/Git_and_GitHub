@@ -59,4 +59,17 @@
             - can use templated (GitHub)
             - Can use Expressions (e.g. all .csv files)
 
+- What is your project status
+    ```bash
+    $git status
+    ```
+    Then you get:
+    - Changes to be commited
+    - Changes not staged
+    - Untracked files
 
+- - How do we connect to a remote repository?
+    ```bash
+    $git remote add <name> <URL>
+    ```
+    -> Creates bridge between local repository that git created for you and GitHub remote repo
