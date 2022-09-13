@@ -38,7 +38,7 @@
 - How can I travel within the timeline?
     → Do some search to find out how you can move from one commit to another and back
     ```bash
-    $git checkout commithash
+    $git checkout <commit ID>
     ```
     Additional arguments:
     - `Commit hash` to restore that commit to your computer
