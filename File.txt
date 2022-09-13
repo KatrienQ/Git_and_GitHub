@@ -74,4 +74,44 @@
     ```
     -> Creates bridge between local repository that git created for you and GitHub remote repo
 
-Hello Katrien! :-)
+- Using the bridge
+    
+    ```bash
+    $git push
+    $git pull
+    ```
+    
+
+- You lost your local repository in a freak deletion accident. How can you recover your work?
+    
+    → Use a search-engine to find a way to recover your work
+    
+    ```bash
+    $git clone <GitHub URL>
+    ```
+    
+
+- You messed up your work in a freak commit accident. How can you recover your work to a good state?
+    
+    → Use a search-engine to find a way to recover your work
+    
+    ```bash
+    $git revert HEAD
+    ```
+    
+    Undo a commit (opposite of a comit)
+    
+    ≠ `$git checkout` 
+    
+- Alternative histories: branches
+    - Branch
+        - Alternative history of commits
+        - Has a specific name
+        - Independent timeline
+        - Connected to a moment in time
+    - Utility
+        - Experimenting risk free
+        - Collaborating in a project
+            - Working different tasks
+        - Looking for different solution to the same issue
+        - Release series (V1.1, V1.2,…)
