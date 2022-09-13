@@ -1,10 +1,12 @@
-- Git keeps track of timeline of your commits (mostly local), GitHub is a hosting service (cloud-based)
+- Git keeps track of timeline of your commits (mostly local), GitHub is a hosting service (cloud-based) that keeps track of all your timelines
 
-- Structure
+- Structure (4 conceptual areas)
     - My computer
         - Develop area (folder where the project is developed, where documents are in)
         - Local repository (= Git that is organizing for you)
         - Staging area (= channel/location that will help in preparing the documents from the develop area for staging)
+    - Another computer (somewhere else)
+        - Remote repository (i.e. GitHub)
 
 - Meaningful messages
     - Why was it changed
@@ -43,3 +45,18 @@
     Additional arguments:
     - `Commit hash` to restore that commit to your computer
     - `master` to restore the last version
+
+- Github
+    - README.txt
+        → Detailed description of your project and tool usage (if it is the case)
+    - .gitignore
+        → List of files that should not be added to repository
+        - data files
+        - backup files
+        - intermediate files
+        - Just a text file
+            - Can list one by one
+            - can use templated (GitHub)
+            - Can use Expressions (e.g. all .csv files)
+
+
