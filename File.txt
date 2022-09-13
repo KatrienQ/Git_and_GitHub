@@ -1,4 +1,4 @@
-- GitHub keeps track of timeline of your commits
+- Git keeps track of timeline of your commits (mostly local), GitHub is a hosting service (cloud-based)
 
 - Structure
     - My computer
@@ -16,17 +16,12 @@
     
 - Saving a point in time
     - Add to staging area
-    
     ```bash
     $git add File
     ```
-    
     - Commit
-    
     ```bash
     $git commit -m "meassage"
     ```
-    
     → You can also do this in ungit, but less recommended for complex projects
 
-This is a tests
