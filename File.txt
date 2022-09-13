@@ -73,3 +73,5 @@
     $git remote add <name> <URL>
     ```
     -> Creates bridge between local repository that git created for you and GitHub remote repo
+
+Hello Katrien! :-)
