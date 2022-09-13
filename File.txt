@@ -1,1 +1,18 @@
-
+- GitHub keeps track of timeline of your commits
+
+- Structure
+    - My computer
+        - Develop area (folder where the project is developed, where documents are in)
+        - Local repository (= Git that is organizing for you)
+        - Staging area (= channel/location that will help in preparing the documents from the develop area for staging)
+
+- Meaningful messages
+    - Why was it changed
+    - How this addresses the issue
+    - Effects dut the change
+    - Limitations of the change
+    → Be descriptive!
+    
+- Saving a point in time
+    - Add to staging area
+    - Commit
