@@ -78,4 +78,4 @@
     - Branch
         - Alternative history of commits
         - has a specific name
-        - …
+        - Need to continue
