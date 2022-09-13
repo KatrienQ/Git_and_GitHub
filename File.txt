@@ -25,3 +25,21 @@
     ```
     → You can also do this in ungit, but less recommended for complex projects
 
+- How can I see the history of my timeline?
+    → Find out how you can see a list of commits, a history of all that was added to git
+    ```bash
+    $git log
+    ```
+    Additional arguments:
+    - `-p` or `--patch` shows the difference (the *patch* output)
+    - `--stat` for some abbreviated stats for each commit
+    - `--pretty` changes the log output to formats other than the default
+
+- How can I travel within the timeline?
+    → Do some search to find out how you can move from one commit to another and back
+    ```bash
+    $git checkout commithash
+    ```
+    Additional arguments:
+    - `Commit hash` to restore that commit to your computer
+    - `master` to restore the last version
